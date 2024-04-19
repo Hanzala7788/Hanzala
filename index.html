@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hanzala</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <!-- Logo -->
+      <div class="logo">
+        <img src="img/logo.svg" alt="logo" />
+      </div>
+
+      <!-- Navbar menu -->
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+
+      <!-- Button -->
+      <button class="btn">Contact Me</button>
+      <button id="menuButton" onclick="toggleMenu()">
+        <i class='bx bx-menu'></i></box-icon>
+      </button>
+    </nav>
+
+    <!-- main section -->
+    <div class="main" id="main">
+        <!-- left main -->
+        <div class="left">
+            <h5>Hi, I am <span>Hanzala</span></h5>
+            <h3>I create <span>Python Flask Websites</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem placeat unde aspernatur,</p>
+            <button>Get In Touch</button>
+        </div>
+        <!-- right main -->
+        <div class="right">
+            <img src="img/icons8-python-512.png" alt="left-img" class="right-img">
+        </div>
+    </div>
+
+    <!-- skills -->
+    <div class="skills" id="skills">
+      <h5>My Skills</h5>
+      <h3>My Expertise</h3>
+      <div class="skill-items">
+        <div class="item">
+          <div class="icon">
+            <img src="img/icons8-direction-96.png" alt="direction-icon" class="skills-icon">
+          </div>
+          <h4>Strategy & Direction</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aspernatur.</p>
+        </div>
+
+        <div class="item">
+          <div class="icon">
+            <img src="img/icons8-python-64.png" alt="Python-icon" class="skills-icon">
+          </div>
+          <h4>Python</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aspernatur.</p>
+        </div>
+
+        <div class="item">
+          <div class="icon">
+            <img src="img/icons8-flask-500.png" alt="direction-icon" class="skills-icon">
+          </div>
+          <h4>Flask Framework</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aspernatur.</p>
+        </div>
+
+        <div class="item">
+          <div class="icon">
+            <img src="img/icons8-pandas-48.png" alt="direction-icon" class="skills-icon">
+          </div>
+          <h4>Pandas Library</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aspernatur.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div class="about">
+      <div class="about-left">
+        <img src="img/icons8-flask-512.png" class="about-right-img">
+      </div>
+
+      <div class="about-right">
+        <h5>About</h5>
+        <h3>My Introduction</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem placeat unde aspernatur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem placeat unde aspernatur,</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem placeat unde aspernatur,
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Portfolio -->
+    <div class="portfolio" id="portfolio">
+      <div class="header">
+          <div class="info">
+              <h5>Recent Projects</h5>
+              <h3>My Recent Work</h3>
+          </div>
+          <button><img src="img/icons8-github-48.png" class="github-work-profile"> Visit My GitHub</button>
+      </div>
+
+      <div class="portfo-items">
+        <!-- item -->
+          <div class="item">
+              <img src="img/1.png">
+              <div class="info">
+                  <h4>Project 1</h4>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                  </p>
+                  <a href="#">View in GitHub <i class='bx bx-link-external'></i></a>
+              </div>
+          </div>
+
+          <div class="item">
+              <img src="img/2.png">
+              <div class="info">
+                  <h4>Project 2</h4>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                  </p>
+                  <a href="#">View in GitHub<i class='bx bx-link-external'></i></a>
+              </div>
+          </div>
+
+          <div class="item">
+              <img src="img/3.png">
+              <div class="info">
+                  <h4>Project 3</h4>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                  </p>
+                  <a href="#">View in GitHub <i class='bx bx-link-external'></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+    <!-- feedback -->
+    <div class="feedback" id="feedback">
+      <h5>Clients Reviews</h5>
+      <h3>Customers Feedback</h3>
+      <div class="customers">
+          <div class="item">
+              <div class="rating">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+              </div>
+              <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                  tristique. Duis cursus, mi quis viverra.
+              </p>
+              <div class="user">
+                  <img src="img/r-1.webp">
+                  <div class="info">
+                      <h5>Dianne Russell</h5>
+                      <p>Starbucks</p>
+                  </div>
+              </div>
+          </div>
+          <div class="item">
+              <div class="rating">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+              </div>
+              <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                  tristique. Duis cursus, mi quis viverra.
+              </p>
+              <div class="user">
+                  <img src="img/r-2.jpg">
+                  <div class="info">
+                      <h5>Kristian Watson</h5>
+                      <p>Louis Vuitton</p>
+                  </div>
+              </div>
+          </div>
+          <div class="item">
+              <div class="rating">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+              </div>
+              <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                  tristique. Duis cursus, mi quis viverra.
+              </p>
+              <div class="user">
+                  <img src="img/r-3.jpg">
+                  <div class="info">
+                      <h5>Kathryn Murphy</h5>
+                      <p>McDonald's</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="top">
+        <div class="footer-logo">
+            <img src="img/icons8-python-64.png" class="footer-python-logo">
+            <a href="https://youtube.com/@AsmrProg">Muhammad Hanzala</a>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Projects</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="bottom">
+        <p>
+            Develop by Muhammad Hanzala
+        </p>
+        <div class="links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookies Setting</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+  function toggleMenu() {
+    const nav = document.querySelector('nav');
+    nav.classList.toggle('open');
+}
+</script>
+  </body>
+</html>
